@@ -11,21 +11,21 @@ const ParishDentalPracticePolicy = () => {
           <summary class="accordion">Complaints policy</summary>
 
           <div class="accordionDrop">
-            <p className="text-xl mx-10">
+            <p className="text-xl my-10">
               Complaints handling policy Code of practice for complaints
             </p>
-            <p className="text-xl mx-10">
+            <p className="text-xl my-10">
               In this practice, we take complaints seriously to ensure that our
               service meets expectations. All complaints are dealt with
               courteously and promptly to resolved the matter as quickly as
               possible.
             </p>
-            <p className="text-xl mx-10">
+            <p className="text-xl my-10">
               Our aim is to react to complaints and learn from every mistake
               that we make. We respond to any concerns in a caring and sensitive
               way.
             </p>
-            <ol className="list-decimal">
+            <ol className="list-decimal p-20">
               <li>
                 <p>
                   The person responsible for dealing with any complaints about
@@ -131,7 +131,7 @@ const ParishDentalPracticePolicy = () => {
                 </p>
               </li>
             </ol>
-            <p className="text-xl mx-10">
+            <p className="text-xl my-10">
               For complaints about NHS treatment: NHS England, PO Box 16738,
               Redditch B97 9PT (email: England.contactus@nhs.net); or The
               Parliamentary and Health Service Ombudsman, Millbank Tower,
