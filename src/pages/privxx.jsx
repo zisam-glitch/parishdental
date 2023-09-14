@@ -1,56 +1,41 @@
 import React from "react";
 import Layout from "../components/global/Layout";
 import PageHeader from "../components/global/PageHeader";
-import { AiFillCaretDown } from "react-icons/ai";
 
 const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
       <PageHeader pageTitle="Parish Dental Practice Policy" />
-      <div className="container mx-auto my-40">
-        <div tabindex="0" class="faqblock">
-          <input type="checkbox" id="faq" />
-          <label for="faq">
-            <div className="p">
-            failed to attend policy
-            </div>
-            <div className="i">
-              <AiFillCaretDown />
-            </div>
-          </label>
-          <div class="faqblock-content">
-            <p>
-              No. The PCM control modules will output for a set number of
-              seconds after every pulse is received. You will have to ensure
-              that the flow rate combined with the flow meter's pulse rate is
-              accounted for by ensuring the "on time" does not exceed the
-              available time between pulses. If you do need to accumulate
-              pulses, we recommend the SeaMetrics PT35 Pulse Timer. More
-              information can be found on the PT35{" "}
-              <a href="http://www.promagenviro.com/Counter-Timer">here</a>.
-            </p>
-          </div>
+
+      <details>
+        <summary class="accordion">What is an accordion?</summary>
+
+        <div class="accordionDrop">
+          What you just did was click on an accordion. Essentially, an accordion
+          is a graphical control element comprising a vertically stacked list of
+          of items that can be expanded or collapsed to reveal content.
         </div>
-        <div tabindex="0" class="faqblock">
-          <input type="checkbox" id="faq" />
-          <label for="faq">
-            Can I accumulate pulses, and activate the output after a desired
-            number of pulses are received?
-          </label>
-          <div class="faqblock-content">
-            <p>
-              No. The PCM control modules will output for a set number of
-              seconds after every pulse is received. You will have to ensure
-              that the flow rate combined with the flow meter's pulse rate is
-              accounted for by ensuring the "on time" does not exceed the
-              available time between pulses. If you do need to accumulate
-              pulses, we recommend the SeaMetrics PT35 Pulse Timer. More
-              information can be found on the PT35{" "}
-              <a href="http://www.promagenviro.com/Counter-Timer">here</a>.
-            </p>
-          </div>
+      </details>
+
+      <details>
+        <summary class="accordion">What do you use an accordion for?</summary>
+
+        <div class="accordionDrop">
+          An accordion is great for hiding information that you only want to be
+          display when a user is interested. For example: Using an accordion is
+          great on a frequently asked questions page, especially if you have a
+          bunch of questions!
         </div>
-      </div>
+      </details>
+
+      <details>
+        <summary class="accordion">I still need help!</summary>
+
+        <div class="accordionDrop">
+          I'm always open to helping you out. If you wish to contact me, my{" "}
+          <a href="http://twitter.com/techjohnson">Twitter</a> is always open!
+        </div>
+      </details>
     </Layout>
   );
 };
