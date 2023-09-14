@@ -258,6 +258,7 @@ input[type="number"] {
   margin: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .accordionDrop {
