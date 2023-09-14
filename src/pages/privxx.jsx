@@ -6,6 +6,7 @@ const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
       <PageHeader pageTitle="Parish Dental Practice Policy" />
+      <div className="container mx-40"> 
 
       <details>
         <summary class="accordion">What is an accordion?</summary>
@@ -36,6 +37,7 @@ const ParishDentalPracticePolicy = () => {
           <a href="http://twitter.com/techjohnson">Twitter</a> is always open!
         </div>
       </details>
+      </div>
     </Layout>
   );
 };
