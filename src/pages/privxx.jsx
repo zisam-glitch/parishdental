@@ -8,6 +8,16 @@ const ParishDentalPracticePolicy = () => {
       <PageHeader pageTitle="Parish Dental Practice Policy" />
       <div className="container mx-auto my-40">
         <details>
+          <summary class="accordion">Failed to attend policy</summary>
+
+          <div class="accordionDrop">
+            An accordion is great for hiding information that you only want to
+            be display when a user is interested. For example: Using an
+            accordion is great on a frequently asked questions page, especially
+            if you have a bunch of questions!
+          </div>
+        </details>
+        <details>
           <summary class="accordion">Complaints policy</summary>
 
           <div class="accordionDrop">
@@ -141,26 +151,6 @@ const ParishDentalPracticePolicy = () => {
               120 540). General Dental Council, 37 Wimpole Street, London, W1M
               8DQ
             </p>
-          </div>
-        </details>
-
-        <details>
-          <summary class="accordion">What do you use an accordion for?</summary>
-
-          <div class="accordionDrop">
-            An accordion is great for hiding information that you only want to
-            be display when a user is interested. For example: Using an
-            accordion is great on a frequently asked questions page, especially
-            if you have a bunch of questions!
-          </div>
-        </details>
-
-        <details>
-          <summary class="accordion">I still need help!</summary>
-
-          <div class="accordionDrop">
-            I'm always open to helping you out. If you wish to contact me, my{" "}
-            <a href="http://twitter.com/techjohnson">Twitter</a> is always open!
           </div>
         </details>
       </div>
