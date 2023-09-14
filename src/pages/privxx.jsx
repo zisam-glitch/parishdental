@@ -141,7 +141,7 @@ const ParishDentalPracticePolicy = () => {
                 </p>
               </li>
             </ol>
-            <p className="text-xl my-8">
+            <p className="text-xl mb-8">
               For complaints about NHS treatment: NHS England, PO Box 16738,
               Redditch B97 9PT (email: England.contactus@nhs.net); or The
               Parliamentary and Health Service Ombudsman, Millbank Tower,
