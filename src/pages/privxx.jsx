@@ -30,18 +30,18 @@ const ParishDentalPracticePolicy = () => {
                 fontSize: "medium",
               }}
             >
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   The person responsible for dealing with any complaints about
                   the service that we provide is the Manager, our Complaints’
                   Manager.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   If we receive a complaint by telephone or in person, we will
                   listen and offer to refer the individual to the Complaints’
                   Manager immediately. If the Complaints’ Manager is not
@@ -52,31 +52,31 @@ const ParishDentalPracticePolicy = () => {
                   the matter requires a more immediate response, we will arrange
                   for a senior member of the dental team to deal with it.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   If we receive a complaint in writing or by e-mail, it will be
                   passed immediately to the Complaints’ Manager.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   If a complaint is about any aspect of clinical care or
                   associated charges, it will usually be referred to the dentist
                   concerned, unless the individual does not want this to happen.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   We will acknowledge a complaint in writing and enclose a copy
                   of this code of practice as soon as possible, normally within
                   3 working days. We will offer to discuss the complaint with
@@ -89,22 +89,22 @@ const ParishDentalPracticePolicy = () => {
                   inform them of the expected timescale for completing the
                   investigation.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   We will seek to investigate the complaint within six months
                   and, as far as reasonably practicable, we will keep the
                   individual informed as to the progress of the investigation.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   When we have completed our investigation, we will provide the
                   individual with a full written report, which will include an
                   explanation of how we considered the complaint, the
@@ -112,23 +112,23 @@ const ParishDentalPracticePolicy = () => {
                   complaint, details of any necessary remedial action taken and
                   whether further action will be taken.
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p  >
                   Proper and comprehensive records will be kept of any
                   complaints received and the action we take. These records will
                   be reviewed regularly to ensure that we take every opportunity
                   to improve our service
                 </p>
-                <p style={{ color: "#fff" }}>
+                <p  >
                   <br />
                 </p>
               </li>
-              <li style={{ color: "#fff" }}>
-                <p style={{ color: "#fff" }}>
+              <li  >
+                <p >
                   If the individual making the complaint is not satisfied with
                   the result of our investigation, we will advise them to refer
                   the complaint to:
