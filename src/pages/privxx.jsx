@@ -25,7 +25,7 @@ const ParishDentalPracticePolicy = () => {
               that we make. We respond to any concerns in a caring and sensitive
               way.
             </p>
-            <ol>
+            <ol className="list-decimal">
               <li>
                 <p>
                   The person responsible for dealing with any complaints about
