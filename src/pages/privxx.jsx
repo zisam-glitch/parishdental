@@ -24,11 +24,6 @@ const ParishDentalPracticePolicy = () => {
               way.
             </p>
             <ol
-              style={{
-                textAlign: "justify",
-                color: "#fff",
-                fontSize: "medium",
-              }}
             >
               <li  >
                 <p  >
