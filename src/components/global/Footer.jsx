@@ -55,20 +55,7 @@ const Footer = () => {
           <Logo isFooter />
           <p className="my-10 font-light">{footerData?.footerDescription}</p>
           <div className="flex items-center my-5 gap-2.5	">
-            {/* {socials.map((social) => {
-              const SocialIconComponent = social.icon;
-              return (
-                <a
-                  key={social?.id}
-                  href={social?.href}
-                  className="bg-white hover:bg-secondary w-10 h-10 rounded-md flex justify-center items-center mr-5 group transition-colors"
-                >
-                  <SocialIconComponent className="text-primary group-hover:text-white transition-colors" />
-                </a>
-                
-                
-              );
-            })} */}
+      
             <a href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA==" className="icon">
               <BsFacebook/>
             </a>
