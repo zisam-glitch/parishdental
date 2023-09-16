@@ -283,6 +283,7 @@ details > summary::-webkit-details-marker {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  padding: 10px 0;
 }
 .icon-flex a {
  color: rgb(21 127 180);;
