@@ -41,7 +41,7 @@ const ContactPageForm = () => {
             For NHS Appointments and Enquiries –{" "}
             <a href="mailto:nhs@parishdental.co.uk">nhs@parishdental.co.uk</a>
           </h3>
-          <h3>Parish Dental Leeds Branch</h3>
+          <h2>Parish Dental Leeds Branch</h2>
           <h4>0113 263 8509</h4>
           <ul>
             <li> - option 1 NHS</li>
