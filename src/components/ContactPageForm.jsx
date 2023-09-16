@@ -28,14 +28,14 @@ const ContactPageForm = () => {
     <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center my-24">
       <div className="w-full lg:w-1/2 lg:p-10">
         <div className="herocxe">
-          <h2>Find the right point of contact for you</h2>
-          <h3>Private Appointments</h3>
-          <p>
+          <h1>Find the right point of contact for you</h1>
+          <h2>Private Appointments</h2>
+          <h3>
             For Private Appointments and Enquiries –{" "}
             <a href="mailto:private@parishdental.co.uk">
               private@parishdental.co.uk
             </a>
-          </p>
+          </h3>
           <h2>NHS Appointments </h2>
           <h3>
             For NHS Appointments and Enquiries –{" "}
