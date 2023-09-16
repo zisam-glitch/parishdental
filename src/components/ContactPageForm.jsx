@@ -28,7 +28,7 @@ const ContactPageForm = () => {
     <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center my-24">
       <div className="w-full lg:w-1/2 lg:p-10">
         <div className="herocxe">
-          <h1>Find the right point of contact for you</h1>
+          <h1 className=" hero">Find the right point of contact for you</h1>
           <h2>Private Appointments</h2>
           <h3>
             For Private Appointments and Enquiries –{" "}
