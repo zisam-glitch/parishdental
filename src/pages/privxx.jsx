@@ -28,49 +28,49 @@ const ParishDentalPracticePolicy = () => {
                 Policy.
               </p>
               <p className="Blue font-bold text-xl my-8">Policy Guidelines</p>
-              <ol className="list-decimal p-10 text-xl">
-                <li>
+              <ol className="list-decimal px-10 text-xl">
+                <li className="my-4">
                   <b>Notification Requirement:</b> We require a minimum of 2
                   working days' notice if you need to cancel or reschedule an
                   appointment. This allows us to offer the time slot to other
                   patients who may be in urgent need of care.
                 </li>
-                <li>
+                <li className="my-4">
                   <b>Short Notice Cancellation:</b> If an appointment is
                   cancelled with less than 2 working days' notice, the following
                   will apply:
-                  <ul className="list-disk p-10 text-xl">
-                    <li>
+                  <ul className="list-disk p-6 text-xl">
+                    <li className="my-3">
                       For NHS patients: In line with NHS regulations, if a
                       patient cancels at short notice 4 times within a 2-year
                       period, we reserve the right to deny any further NHS
                       treatment.
                     </li>
-                    <li>
+                    <li className="my-3">
                       For private appointments: Cancellations under the 2
                       working days' notice period will result in a loss of
                       deposit.
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="my-4" >
                   <b>Failed to Attend:</b> If a patient fails to show up for an
                   appointment without any prior notice, the following will
                   apply:
-                  <ul className="list-disk p-10 text-xl">
-                    <li>
+                  <ul className="list-disk p-6 text-xl">
+                    <li className="my-3">
                       For NHS patients: If a patient fails to attend 2
                       appointments within a 2-year period, we reserve the right
                       to deny any further NHS treatment.
                     </li>
-                    <li>
+                    <li className="my-3">
                       {" "}
                       For private appointments: A failed appointment will result
                       in a loss of deposit and may also incur an additional fee.
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="my-4">
                   <b>Double Appointments:</b> If a double appointment is booked,
                   which is greater than 40 minutes, this will count as 2
                   appointments. Consequently, if such an appointment is missed
@@ -78,12 +78,12 @@ const ParishDentalPracticePolicy = () => {
                   as 2 failed appointments or 2 short notice cancellations, as
                   applicable
                 </li>
-                <li>
+                <li className="my-4">
                   <b>Late Cancellation:</b> Cancellations made less than 3 hours
                   before the scheduled appointment time will be marked as a
                   "Failed to Attend."
                 </li>
-                <li>
+                <li className="my-4">
                   <b> Non-Discrimination:</b> This policy is applied uniformly
                   across our entire patient base to ensure fairness and to
                   prevent any form of discrimination.
