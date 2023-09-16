@@ -27,8 +27,49 @@ const ContactPageForm = () => {
   return (
     <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center my-24">
       <div className="w-full lg:w-1/2 lg:p-10">
-        <div className="hero">
-          <h2>my d</h2>
+        <div className="herocxe">
+          <h2>Find the right point of contact for you</h2>
+          <h3>Private Appointments</h3>
+          <p>
+            For Private Appointments and Enquiries –{" "}
+            <a href="mailto:private@parishdental.co.uk">
+              private@parishdental.co.uk
+            </a>
+          </p>
+          <h2>NHS Appointments </h2>
+          <h3>
+            For NHS Appointments and Enquiries –{" "}
+            <a href="mailto:nhs@parishdental.co.uk">nhs@parishdental.co.uk</a>
+          </h3>
+          <h3>Parish Dental Leeds Branch</h3>
+          <h4>0113 263 8509</h4>
+          <ul>
+            <li> - option 1 NHS</li>
+            <li> - option 2 Private</li>
+            <li> - option 3 Private Emergency</li>
+          </ul>
+          <h2>Emergency Dentist </h2>
+          <h4>0113 322 8354</h4>
+          <h3>
+            Emergency 247 Dentist –{" "}
+            <a href="mailto:private@parishdental.co.uk">
+              private@parishdental.co.uk
+            </a>
+          </h3>
+          <h2>Mobile Dentist</h2>
+          <h3>
+            For Mobile Dentist – UK Coverage –{" "}
+            <a href="mailto:hello@parishdental.co.uk">
+              hello@parishdental.co.uk
+            </a>
+          </h3>
+          <h2>Accounts Team</h2>
+          <h3>
+            For Accounts Team –{" "}
+            <a href="mailto:accounts@parishdental.co.uk">
+              accounts@parishdental.co.uk
+            </a>
+          </h3>
         </div>
       </div>
       <div className="w-full lg:w-1/2 lg:p-10 mt-16 lg:mt-0">
