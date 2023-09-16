@@ -11,10 +11,12 @@ const ParishDentalPracticePolicy = () => {
           <summary class="accordion">Failed to attend policy</summary>
 
           <div class="accordionDrop">
-            An accordion is great for hiding information that you only want to
-            be display when a user is interested. For example: Using an
-            accordion is great on a frequently asked questions page, especially
-            if you have a bunch of questions!
+            <div className="policy">
+              <h3 className="text-xl font-bold	text-black">
+                Parish Dental - Failed Appointments and Short Notice<br/>
+                Cancellations Policy
+              </h3>
+            </div>
           </div>
         </details>
         <details>
