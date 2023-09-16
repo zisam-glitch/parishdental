@@ -291,12 +291,27 @@ details > summary::-webkit-details-marker {
 .herocxe h1 {
   font-size: 38px;
   line-height: 45px;
-  padding: 20px 0;
+
 }
 .herocxe h2 {
+  color: #157fb4;
   font-size: 22px;
   font-weight: 600;
-  color: rgb(21 127 180);
-  padding: 20px 0;
+  padding-top: 10px;
   
 }
+.herocxe h3 {
+  font-size: 18px;
+}
+.herocxe h3 a{
+  font-weight: 700;
+  color: #157fb4;
+}
+.herocxe h4{
+  margin: 10px 0;
+  font-size: 22px;
+  border-top: 1px solid #00000042;
+  font-weight: 600;
+  border-bottom: 1px solid #00000042;
+}
+
