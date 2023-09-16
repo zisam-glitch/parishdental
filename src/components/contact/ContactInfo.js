@@ -2,7 +2,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 
-
 const ContactInfo = () => {
   const data = useStaticQuery(graphql`
     query ContactPageQuery {
@@ -27,26 +26,26 @@ const ContactInfo = () => {
       <p className="text-secondary my-2">{contactData?.address}</p>
       <a
         className="text-secondary my-2 block"
-        href={`mailto:${contactData?.email}`}
+        href={"mailto:hello@parishdental.co.uk"}
       >
-        {contactData?.email}
+        hello@parishdental.co.uk{" "}
       </a>
       <a className="text-secondary my-2" href={`tel:${contactData?.phone}`}>
         {contactData?.phone}
       </a>
       <div className="icon-flex">
-      <a
-        href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
-        className="icon"
-      >
-        <BsFacebook />
-      </a>
-      <a
-        href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
-        className="icon"
-      >
-        <BsInstagram />
-      </a>
+        <a
+          href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
+          className="icon"
+        >
+          <BsFacebook />
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+          className="icon"
+        >
+          <BsInstagram />
+        </a>
       </div>
     </section>
   );
