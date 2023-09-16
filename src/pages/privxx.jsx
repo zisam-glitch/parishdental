@@ -57,7 +57,7 @@ const ParishDentalPracticePolicy = () => {
                   <b>Failed to Attend:</b> If a patient fails to show up for an
                   appointment without any prior notice, the following will
                   apply:
-                  <ul className="list-disk p-10 text-xl>
+                  <ul className="list-disk p-10 text-xl">
                     <li>
                       For NHS patients: If a patient fails to attend 2
                       appointments within a 2-year period, we reserve the right
