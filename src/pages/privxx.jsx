@@ -12,7 +12,7 @@ const ParishDentalPracticePolicy = () => {
 
           <div class="accordionDrop">
             <div className="policy">
-              <h3 className="text-xl font-bold	text-black">
+              <h3 className="text-2xl	 font-bold	text-black my-8">
                 Parish Dental - Failed Appointments and Short Notice<br/>
                 Cancellations Policy
               </h3>
@@ -23,7 +23,7 @@ const ParishDentalPracticePolicy = () => {
           <summary class="accordion">Complaints policy</summary>
 
           <div class="accordionDrop">
-            <p className="text-xl my-8">
+            <p className="text-2xl	 font-bold	text-black my-8">
               Complaints handling policy Code of practice for complaints
             </p>
             <p className="text-xl my-8">
