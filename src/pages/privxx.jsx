@@ -13,9 +13,82 @@ const ParishDentalPracticePolicy = () => {
           <div class="accordionDrop">
             <div className="policy">
               <h3 className="text-2xl	 font-bold	text-black my-8">
-                Parish Dental - Failed Appointments and Short Notice<br/>
+                Parish Dental - Failed Appointments and Short Notice
+                <br />
                 Cancellations Policy
               </h3>
+              <p className="Blue font-bold text-xl my-8">Introduction</p>
+              <p className="font-bold text-xl my-8">
+                At Parish Dental, we strive to provide timely and quality dental
+                care to all our patients. We understand that your time is
+                valuable, and so is ours. Unattended appointments and short
+                notice cancellations disrupt the practice's ability to serve
+                other patients in need. Therefore, we have implemented the
+                following Failed Appointments and Short Notice Cancellations
+                Policy.
+              </p>
+              <p className="Blue font-bold text-xl my-8">Policy Guidelines</p>
+              <ol>
+                <li>
+                  <b>Notification Requirement:</b> We require a minimum of 2
+                  working days' notice if you need to cancel or reschedule an
+                  appointment. This allows us to offer the time slot to other
+                  patients who may be in urgent need of care.
+                </li>
+                <li>
+                  <b>Short Notice Cancellation:</b> If an appointment is
+                  cancelled with less than 2 working days' notice, the following
+                  will apply:
+                  <ul>
+                    <li>
+                      For NHS patients: In line with NHS regulations, if a
+                      patient cancels at short notice 4 times within a 2-year
+                      period, we reserve the right to deny any further NHS
+                      treatment.
+                    </li>
+                    <li>
+                      For private appointments: Cancellations under the 2
+                      working days' notice period will result in a loss of
+                      deposit.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Failed to Attend:</b> If a patient fails to show up for an
+                  appointment without any prior notice, the following will
+                  apply:
+                  <ul>
+                    <li>
+                      For NHS patients: If a patient fails to attend 2
+                      appointments within a 2-year period, we reserve the right
+                      to deny any further NHS treatment.
+                    </li>
+                    <li>
+                      {" "}
+                      For private appointments: A failed appointment will result
+                      in a loss of deposit and may also incur an additional fee.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Double Appointments:</b> If a double appointment is booked,
+                  which is greater than 40 minutes, this will count as 2
+                  appointments. Consequently, if such an appointment is missed
+                  or cancelled with less than the required notice, it will count
+                  as 2 failed appointments or 2 short notice cancellations, as
+                  applicable
+                </li>
+                <li>
+                  <b>Late Cancellation:</b> Cancellations made less than 3 hours
+                  before the scheduled appointment time will be marked as a
+                  "Failed to Attend."
+                </li>
+                <li>
+                  <b> Non-Discrimination:</b> This policy is applied uniformly
+                  across our entire patient base to ensure fairness and to
+                  prevent any form of discrimination.
+                </li>
+              </ol>
             </div>
           </div>
         </details>

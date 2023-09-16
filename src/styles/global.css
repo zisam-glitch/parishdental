@@ -274,3 +274,6 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+.blue{
+  color: rgb(21 127 180);
+}
