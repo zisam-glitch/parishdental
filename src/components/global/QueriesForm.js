@@ -80,7 +80,7 @@ const QueriesForm = ({ inputBg, oneCol }) => {
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
         <div
-          className={`grid ${oneCol ? "grid-cols-1" : "grid-cols-2"}  gap-3`}
+          className={`grid ${oneCol ? "grid-cols-1" : "grid-cols-1"}  gap-3`}
         >
           <div>
             <input
@@ -102,7 +102,7 @@ const QueriesForm = ({ inputBg, oneCol }) => {
         </div>
 
         <div
-          className={`grid ${oneCol ? "grid-cols-1" : "grid-cols-2"}  gap-3`}
+          className={`grid ${oneCol ? "grid-cols-1" : "grid-cols-1"}  gap-3`}
         >
           <div>
             <input
