@@ -179,7 +179,7 @@ input[type="number"] {
   height: 15px;
 }
 
-.hero-slide{
+.hero-slide {
   height: 80vh;
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,q_70,w_1280/v1693901084/Untitled_design_11_eu31s2.png);
   background-position: center;
@@ -189,11 +189,10 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
 }
-.hero-slide .content{
+.hero-slide .content {
   padding: 0 15%;
-
 }
-.hero-slide1{
+.hero-slide1 {
   height: 80vh;
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg);
   background-position: center;
@@ -203,11 +202,10 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
 }
-.hero-slide1 .content{
+.hero-slide1 .content {
   padding: 0 15%;
-
 }
-.hero-slide2{
+.hero-slide2 {
   height: 80vh;
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693907769/cosmetologists-hands-making-medical-botox-injections-beautiful-blonde-skin-lifting-facial-treatment-beauty-spa_y9cb2v.jpg);
   background-position: center;
@@ -217,38 +215,37 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
 }
-.hero-slide2 .content{
+.hero-slide2 .content {
   padding: 0 15%;
-
 }
 .swiper-button-prev {
   left: 50px !important ;
   right: auto;
-  
 }
-.swiper-button-next{
+.swiper-button-next {
   right: 50px !important;
   left: auto;
 }
-.swiper-button-next:after, .swiper-button-prev:after{
+.swiper-button-next:after,
+.swiper-button-prev:after {
   font-size: 13px !important;
   font-weight: 900 !important;
   padding: 13px 16px !important;
   background-color: white !important;
   border-radius: 4px !important;
   color: rgb(21, 127, 180) !important;
-  
 }
 
-.swiper-button-next:hover::after, .swiper-button-prev:hover::after{
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
   background-color: rgb(255 72 164) !important;
   color: white !important;
-
 }
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-  opacity: .5 !important;
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5 !important;
 }
-.emergency24{
+.emergency24 {
   height: 80vh;
 }
 .accordion {
@@ -265,7 +262,7 @@ input[type="number"] {
   padding: 0px 30px;
 }
 
-::-webkit-details-marker { 
+::-webkit-details-marker {
   display: none;
 }
 details > summary {
@@ -274,11 +271,11 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
-.Blue{
+.Blue {
   color: rgb(21 127 180);
 }
 
-.icon-flex{
+.icon-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,5 +283,20 @@ details > summary::-webkit-details-marker {
   padding: 10px 0;
 }
 .icon-flex a {
- color: rgb(21 127 180);;
+  color: rgb(21 127 180);
+}
+.herocxe {
+  padding-right: 15%;
+}
+.herocxe h1 {
+  font-size: 38px;
+  line-height: 45px;
+  padding: 20px 0;
+}
+.herocxe h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(21 127 180);
+  padding: 20px 0;
+  
 }
