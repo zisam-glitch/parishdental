@@ -18,7 +18,7 @@ const ParishDentalPracticePolicy = () => {
                 Cancellations Policy
               </h3>
               <p className="Blue font-bold text-xl my-8">Introduction</p>
-              <p className="font-bold text-xl my-8">
+              <p className="text-xl my-8">
                 At Parish Dental, we strive to provide timely and quality dental
                 care to all our patients. We understand that your time is
                 valuable, and so is ours. Unattended appointments and short
@@ -28,7 +28,7 @@ const ParishDentalPracticePolicy = () => {
                 Policy.
               </p>
               <p className="Blue font-bold text-xl my-8">Policy Guidelines</p>
-              <ol>
+              <ol className="list-decimal p-10 text-xl">
                 <li>
                   <b>Notification Requirement:</b> We require a minimum of 2
                   working days' notice if you need to cancel or reschedule an
@@ -39,7 +39,7 @@ const ParishDentalPracticePolicy = () => {
                   <b>Short Notice Cancellation:</b> If an appointment is
                   cancelled with less than 2 working days' notice, the following
                   will apply:
-                  <ul>
+                  <ul className="list-disk p-10 text-xl">
                     <li>
                       For NHS patients: In line with NHS regulations, if a
                       patient cancels at short notice 4 times within a 2-year
@@ -57,7 +57,7 @@ const ParishDentalPracticePolicy = () => {
                   <b>Failed to Attend:</b> If a patient fails to show up for an
                   appointment without any prior notice, the following will
                   apply:
-                  <ul>
+                  <ul className="list-disk p-10 text-xl>
                     <li>
                       For NHS patients: If a patient fails to attend 2
                       appointments within a 2-year period, we reserve the right
@@ -89,6 +89,17 @@ const ParishDentalPracticePolicy = () => {
                   prevent any form of discrimination.
                 </li>
               </ol>
+              <p className="Blue font-bold text-xl my-8">Exceptions</p>
+              <p className="text-xl my-8">
+                We understand that emergencies and unforeseen circumstances can
+                occur. Exceptions to this policy will be considered on a
+                case-by-case basis and are at the discretion of Parish Dental.
+              </p>
+              <p className="Blue font-bold text-xl my-8">Contact Information</p>
+              <p className=" text-xl my-8">
+                If you need to cancel or reschedule an appointment, please
+                contact us as soon as possible at <a href="mailto:parishdental@gmail.com">parishdental@gmail.com</a>
+              </p>
             </div>
           </div>
         </details>
