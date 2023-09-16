@@ -277,3 +277,13 @@ details > summary::-webkit-details-marker {
 .Blue{
   color: rgb(21 127 180);
 }
+
+.icon-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.icon-flex a {
+ color: rgb(21 127 180);;
+}

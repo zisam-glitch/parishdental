@@ -34,6 +34,7 @@ const ContactInfo = () => {
       <a className="text-secondary my-2" href={`tel:${contactData?.phone}`}>
         {contactData?.phone}
       </a>
+      <div className="icon-flex">
       <a
         href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
         className="icon"
@@ -46,6 +47,7 @@ const ContactInfo = () => {
       >
         <BsInstagram />
       </a>
+      </div>
     </section>
   );
 };
