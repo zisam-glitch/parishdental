@@ -48,7 +48,7 @@ const Schedule = () => {
         className="bg-primary w-full block rounded-b text-center py-6 text-white"
         href={"tel:01133228354"}
       >
-        Call Us: 0113 322 8354
+        OUT OF HOURS CALL EMERGENCY LINE FOR PRIVATE APPTS ONLY – 0113 322 8354
       </a>
     </aside>
   );
