@@ -129,7 +129,7 @@ const Footer = () => {
             <FiMail className="mr-2 w-1/12 text-xl" />{" "}
             <span className="font-light">hello@parishdental.co.uk</span>
           </a>
-
+{/* ss */}
           <a
             href={`tel:${footerData?.phone}`}
             className="flex items-center  mb-7"
