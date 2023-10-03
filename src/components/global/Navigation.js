@@ -74,17 +74,7 @@ const Navigation = ({ open }) => {
                   );
                 })}
               </MenuList>
-              <MenuList>
-                <Link to="/shop">
-                  <MenuItem
-                    className={`uppercase  text-sm ${
-                      isServiceInner ? "text-secondary" : "text-primary"
-                    } font-semibold hover:text-secondary`}
-                  >
-                    Shop
-                  </MenuItem>
-                </Link>
-              </MenuList>
+              
             </Menu>
           );
         } else {
