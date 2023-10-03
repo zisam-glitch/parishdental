@@ -313,4 +313,6 @@ details > summary::-webkit-details-marker {
   font-weight: 600;
   border-bottom: 1px solid #00000018;
 }
-
+.blue{
+  color: rgb(21 127 180);
+}

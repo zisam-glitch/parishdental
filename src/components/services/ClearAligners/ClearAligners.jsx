@@ -12,7 +12,7 @@ const ClearAligners = () => {
       <Faq />
       <section className="container mx-auto px-10 py-12">
         <div className="tab1 py-6">
-          <h1 className="text-3xl	py-4">Conclusion</h1>
+          <h1 className="text-3xl	py-4 blue">Conclusion</h1>
           <p>
             Clear Aligners offer an excellent alternative to traditional braces,
             providing a discreet, convenient, and effective way to achieve a
