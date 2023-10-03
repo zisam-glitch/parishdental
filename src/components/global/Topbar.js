@@ -27,7 +27,7 @@ const Topbar = () => {
     <div className="bg-primary text-white py-3 text-sm font-light hidden lg:block">
       <div className="flex justify-between container mx-auto px-10">
         <div className="flex items-center">
-          <FiClock className="mr-2" /> <span>{topbarData?.workHours}</span>
+          <FiClock className="mr-2" /> <span>Monday to Saturday - 9am to 6pm</span>
         </div>
         <div className="flex">
           <a
@@ -38,11 +38,11 @@ const Topbar = () => {
             {topbarData?.phone}
           </a>
           <a
-            href="mailto:allsmiles@qodeinteractive.com"
+            href="mailto:hello@parishdental.co.uk"
             className="px-4 flex items-center"
           >
             <FiMail className="mr-2" />
-            {topbarData?.email}
+            hello@parishdental.co.uk
           </a>
           <div className="pl-4 flex items-center">
             <FiMapPin className="mr-2" /> {topbarData?.address}
