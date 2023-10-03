@@ -70,22 +70,19 @@ const Navigation = ({ open }) => {
                           {service.name}
                         </MenuItem>
                       </Link>
-                      <Link
-                        to="/shop"
-                        key={service.id}
-                      >
-                        <MenuItem
-                          className={`uppercase  text-sm ${
-                            isServiceInner ? "text-secondary" : "text-primary"
-                          } font-semibold hover:text-secondary`}
-                        >
-                          Shop
-                        </MenuItem>
-                      </Link>
                     </>
                   );
                 })}
               </MenuList>
+              <Link to="/shop" key={service.id}>
+                <MenuItem
+                  className={`uppercase  text-sm ${
+                    isServiceInner ? "text-secondary" : "text-primary"
+                  } font-semibold hover:text-secondary`}
+                >
+                  Shop
+                </MenuItem>
+              </Link>
             </Menu>
           );
         } else {
