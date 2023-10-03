@@ -4,7 +4,7 @@ const ClearAlignersBaner = () => {
   return (
     <section className="container mx-auto px-10 py-12">
       <div className="tab1 py-6">
-        <h1 className="text-3xl	py-4">What is Cosmetic Dentistry?</h1>
+        <h1 className="blue text-3xl	py-4">What is Cosmetic Dentistry?</h1>
         <p>
           Cosmetic Dentistry refers to dental work that improves the appearance
           of teeth, gums, and/or bite. It primarily focuses on improvement in
@@ -13,35 +13,35 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="text-3xl	py-4">Popular Cosmetic Dentistry Procedures</h1>
-        <h2 className="text-2xl	pt-2.5 ">Teeth Whitening</h2>
+        <h1 className="blue text-3xl	py-4">Popular Cosmetic Dentistry Procedures</h1>
+        <h2 className="blue text-2xl	pt-2.5 ">Teeth Whitening</h2>
 
         <p>
           One of the most common and cost-effective cosmetic dentistry
           treatments, teeth whitening can brighten your smile in just one
           session.
         </p>
-        <h2 className="text-2xl	pt-2.5 ">Porcelain Veneers</h2>
+        <h2 className="blue text-2xl	pt-2.5 ">Porcelain Veneers</h2>
 
         <p>
           These are thin shells of porcelain that are custom-fitted to cover the
           front surface of a tooth, often used to correct uneven teeth, worn
           enamel, or discoloration.
         </p>
-        <h2 className="text-2xl	pt-2.5 ">Dental Implants</h2>
+        <h2 className="blue text-2xl	pt-2.5 ">Dental Implants</h2>
 
         <p>
           Used to replace missing teeth, dental implants offer a long-lasting
           solution that looks and feels natural.
         </p>
-        <h2 className="text-2xl	pt-2.5 ">Dental Bonding</h2>
+        <h2 className="blue text-2xl	pt-2.5 ">Dental Bonding</h2>
 
         <p>
           This involves applying a tooth-colored resin to a tooth and hardening
           it with a special light. It’s a cost-effective way to repair chipped
           or cracked teeth.
         </p>
-        <h2 className="text-2xl	pt-2.5 ">Tooth Contouring</h2>
+        <h2 className="blue text-2xl	pt-2.5 ">Tooth Contouring</h2>
 
         <p>
           This procedure involves reshaping the tooth by removing some of its
@@ -50,7 +50,7 @@ const ClearAlignersBaner = () => {
       </div>
 
       <div className="tab1 py-6">
-        <h1 className="text-3xl	py-4">Benefits of Cosmetic Dentistry</h1>
+        <h1 className="blue text-3xl	py-4">Benefits of Cosmetic Dentistry</h1>
 
         <p>
           1. Enhanced Appearance: The most obvious benefit is a more attractive
@@ -74,7 +74,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="text-3xl	py-4">Costs and Financing</h1>
+        <h1 className="blue text-3xl	py-4">Costs and Financing</h1>
         <p>
           The cost of cosmetic dentistry varies widely depending on the type of
           procedure, the expertise of the dentist, and geographic location.
@@ -83,7 +83,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="text-3xl	py-4">How to Choose a Cosmetic Dentist</h1>
+        <h1 className="blue text-3xl	py-4">How to Choose a Cosmetic Dentist</h1>
         <p>
           1. Experience and Qualifications: Look for a dentist with specialized
           training and a portfolio of before-and-after cases.{" "}

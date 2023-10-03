@@ -38,7 +38,7 @@ const Faq = () => {
   return (
     <section className="mt-28">
       <div className="container mx-auto px-10 ">
-        <h2 className="text-[#4f5859] text-4xl text-center font-semibold">
+        <h2 className="blue text-[#4f5859] text-4xl text-center font-semibold">
           Frequently Asked Questions
         </h2>
         <p className="leading-8 text-gray-600 my-3 text-center max-w-[900px] mx-auto">
