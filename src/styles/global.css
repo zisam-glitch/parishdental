@@ -314,5 +314,5 @@ details > summary::-webkit-details-marker {
   border-bottom: 1px solid #00000018;
 }
 .blue{
-  color: rgb(21 127 180);
+  color: rgb(21 127 180) !important;
 }
