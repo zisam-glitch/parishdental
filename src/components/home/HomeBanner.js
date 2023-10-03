@@ -9,8 +9,9 @@ const HomeBanner = () => {
       <div className=" lg:h-72 border flex flex-col lg:flex-row items-center rounded overflow-hidden ">
         <div className="lg:w-1/2 pl-6 my-10 lg:my-0">
           <h3 className="text-primary font-bold text-2xl mb-4">
-            Making Private Dentistry <br /> More Affordable
+            Making  Dentistry <br /> More Affordable
           </h3>
+          {/* Private */}
           <ul className=" text-gray-600 text-lg">
             <li className="flex items-center">
               <AiOutlineCheck className="mr-2 text-primary" /> New Fee Structure
