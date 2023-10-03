@@ -57,18 +57,32 @@ const Navigation = ({ open }) => {
                   );
 
                   return (
-                    <Link
-                      to={`/services/${customSlugify(service.name)}`}
-                      key={service.id}
-                    >
-                      <MenuItem
-                        className={`uppercase  text-sm ${
-                          isServiceInner ? "text-secondary" : "text-primary"
-                        } font-semibold hover:text-secondary`}
+                    <>
+                      <Link
+                        to={`/services/${customSlugify(service.name)}`}
+                        key={service.id}
                       >
-                        {service.name}
-                      </MenuItem>
-                    </Link>
+                        <MenuItem
+                          className={`uppercase  text-sm ${
+                            isServiceInner ? "text-secondary" : "text-primary"
+                          } font-semibold hover:text-secondary`}
+                        >
+                          {service.name}
+                        </MenuItem>
+                      </Link>
+                      <Link
+                        to="/shop"
+                        key={service.id}
+                      >
+                        <MenuItem
+                          className={`uppercase  text-sm ${
+                            isServiceInner ? "text-secondary" : "text-primary"
+                          } font-semibold hover:text-secondary`}
+                        >
+                          Shop
+                        </MenuItem>
+                      </Link>
+                    </>
                   );
                 })}
               </MenuList>
