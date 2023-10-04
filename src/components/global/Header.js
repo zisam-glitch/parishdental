@@ -29,6 +29,17 @@ const Header = () => {
               0113 263 8509
             </Button>
           </a>
+          <a
+            href="tel:01133228354"
+            className="mr-2  font-medium text-gray-600 ml-3 block xl:hidden "
+          >
+            <Button
+              variant="outlined"
+              className=" flex items-center text-sm px-1.5 whitespace-nowrap"
+            >
+             0113 322 8354
+            </Button>
+          </a>
 
           <Burger open={openDrawer} setOpen={setOpenDrawer} />
         </div>
