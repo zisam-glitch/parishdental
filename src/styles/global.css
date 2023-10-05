@@ -316,8 +316,8 @@ details > summary::-webkit-details-marker {
 }
 .t-style {
   text-align: center;
-  font-size: 45px;
-  line-height: 60px;
+  font-size: 45px !important;
+  line-height: 60px !important;
   font-weight: 500;
 }
 .p-style {
@@ -328,4 +328,7 @@ details > summary::-webkit-details-marker {
   margin: auto;
   line-height: 33px;
   letter-spacing: 0.4px;
+}
+.flexe{
+  display: flex;
 }

@@ -17,6 +17,7 @@ const ClearAlignersBaner = () => {
         <h1 className="blue text-3xl t-style 	py-4">
           Benefits of Clear Aligners
         </h1>
+        <div className="flexe">
         <div>
           <h2 className="blue text-2xl	pt-2.5 ">Discreet Appearance</h2>
           <p>
@@ -48,6 +49,7 @@ const ClearAlignersBaner = () => {
             Each set of aligners is custom-made using 3D imaging technology to
             fit snugly over your teeth and guide them to their ideal position.
           </p>
+        </div>
         </div>
       </div>
 
