@@ -343,9 +343,9 @@ details > summary::-webkit-details-marker {
   text-align: center;
 }
 .nove p{
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
   color: #0000007d;
   line-height: 33px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
 }

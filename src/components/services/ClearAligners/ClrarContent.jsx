@@ -26,7 +26,7 @@ const ClearAlignersBaner = () => {
             improve their smile without drawing attention to their treatment.
           </p>
         </div>
-        <div>
+        <div className="nove"> 
           <h2 className="blue text-2xl	pt-2.5 ">Comfort</h2>
 
           <p>
@@ -34,7 +34,7 @@ const ClearAlignersBaner = () => {
             traditional braces, which may have sharp wires or brackets.
           </p>
         </div>
-        <div>
+        <div className="nove">
           <h2 className="blue text-2xl	pt-2.5 ">Convenience</h2>
 
           <p>
@@ -42,7 +42,7 @@ const ClearAlignersBaner = () => {
             drink, and maintain good oral hygiene.
           </p>
         </div>
-        <div>
+        <div className="nove">
           <h2 className="blue text-2xl	pt-2.5 ">Customization</h2>
 
           <p>
