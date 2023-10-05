@@ -18,7 +18,7 @@ const ClearAlignersBaner = () => {
           Benefits of Clear Aligners
         </h1>
         <div className="flexe">
-        <div>
+        <div className="nove">
           <h2 className="blue text-2xl	pt-2.5 ">Discreet Appearance</h2>
           <p>
             Unlike metal braces, clear aligners are virtually invisible. This

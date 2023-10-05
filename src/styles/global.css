@@ -332,3 +332,20 @@ details > summary::-webkit-details-marker {
 .flexe{
   display: flex;
 }
+.nove{
+  width: 25%;
+  padding: 30px;
+}
+.nove h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+}
+.nove p{
+  font-size: 17px;
+  text-align: center;
+  color: #0000007d;
+  line-height: 33px;
+  letter-spacing: 0.3px;
+}
