@@ -320,9 +320,22 @@ details > summary::-webkit-details-marker {
   line-height: 60px !important;
   font-weight: 500;
 }
+.t-style-2 {
+  font-size: 45px !important;
+  line-height: 60px !important;
+  font-weight: 500;
+}
 .p-style {
   font-size: 18px;
   text-align: center;
+  color: #0000007d;
+  max-width: 1100px;
+  margin: auto;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+.p-style-2 {
+  font-size: 18px;
   color: #0000007d;
   max-width: 1100px;
   margin: auto;
@@ -339,13 +352,13 @@ details > summary::-webkit-details-marker {
 .nove h2{
   font-weight: 500;
   font-size: 24px;
-  line-height: 46px;
+  line-height: 35px;
   text-align: center;
 }
 .nove p{
   font-size: 16px;
   text-align: center;
   color: #0000007d;
-  line-height: 33px;
-  letter-spacing: 0.2px;
+  line-height: 25px;
+
 }
