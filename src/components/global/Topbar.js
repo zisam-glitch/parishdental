@@ -31,11 +31,11 @@ const Topbar = () => {
         </div>
         <div className="flex">
           <a
-            href={`tel:${topbarData?.phone}`}
+            href="tel:01133228354"
             className="px-4 flex items-center"
           >
             <FiPhone className="mr-2" />
-            {topbarData?.phone}
+            0113 322 8354
           </a>
           <a
             href="mailto:hello@parishdental.co.uk"
