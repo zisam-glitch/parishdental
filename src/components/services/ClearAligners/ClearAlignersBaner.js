@@ -8,7 +8,7 @@ const ClearAlignersBaner = () => {
       <StaticImage
         layout="fullWidth"
         className="h-screen"
-        src="../../../images/whitening-background.jpeg"
+        src="https://res.cloudinary.com/db1i46uiv/image/upload/v1696534267/HP-1.png_pnuzdd.webp"
         alt="Whitening Banner"
       />
       <div className="absolute lg:left-28 left-1/2 -translate-x-1/2 lg:translate-x-0 top-1/2 text-white -translate-y-1/2 z-[2]">
