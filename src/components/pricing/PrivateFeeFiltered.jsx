@@ -31,8 +31,8 @@ const PrivateFeeFiltered = ({ category }) => {
   // console.log(regexTest.test("computer 5,000.00"));
 
   return (
-    <details>
-      <div id={id}>
+    <div id={id}>
+      <details>
         <summary>
           <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
             {category}
@@ -66,8 +66,8 @@ const PrivateFeeFiltered = ({ category }) => {
               </React.Fragment>
             );
           })}
-      </div>
-    </details>
+      </details>
+    </div>
   );
 };
 
