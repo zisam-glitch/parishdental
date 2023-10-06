@@ -366,4 +366,26 @@ details > summary::-webkit-details-marker {
   color: #0000007d;
   line-height: 25px;
 
+  
 }
+.nove-1{
+  padding: 20px;
+  width: 16.6666666667%;
+  height: 280px;
+  background: rgb(235 252 250) !important;
+  border-radius: 10px;
+}
+.nove-1 h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+.nove-1 p{
+  font-size: 16px;
+  text-align: center;
+  color: #0000007d;
+  line-height: 25px;
+
+}
+
