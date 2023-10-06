@@ -324,6 +324,7 @@ details > summary::-webkit-details-marker {
   font-size: 45px !important;
   line-height: 60px !important;
   font-weight: 500;
+  text-align: center;
 }
 .p-style {
   font-size: 18px;
