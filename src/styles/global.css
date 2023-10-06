@@ -337,17 +337,21 @@ details > summary::-webkit-details-marker {
 .p-style-2 {
   font-size: 18px;
   color: #0000007d;
-  max-width: 1100px;
   margin: auto;
   line-height: 33px;
   letter-spacing: 0.4px;
 }
 .flexe{
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .nove{
+  padding: 20px;
   width: 25%;
-  padding: 30px;
+  height: 280px;
+  background: rgb(235 252 250) !important;
+  border-radius: 10px;
 }
 .nove h2{
   font-weight: 500;

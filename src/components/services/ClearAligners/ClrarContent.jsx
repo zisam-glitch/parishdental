@@ -3,8 +3,8 @@ import React from "react";
 const ClearAlignersBaner = () => {
   return (
     <section className="container mx-auto px-10 py-12">
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style	py-4">What are Clear Aligners?</h1>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style	py-16">What are Clear Aligners?</h1>
         <p className="p-style">
           Clear Aligners are transparent plastic trays designed to gradually
           shift your teeth into their ideal positions. Unlike metal braces,
@@ -13,8 +13,8 @@ const ClearAlignersBaner = () => {
           their convenience, aesthetics, and effectiveness.
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style 	py-4">
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style 	py-16">
           Benefits of Clear Aligners
         </h1>
         <div className="flexe">
@@ -53,8 +53,8 @@ const ClearAlignersBaner = () => {
         </div>
       </div>
 
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">What are Clear Aligners?</h1>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	py-16">What are Clear Aligners?</h1>
         <p className="p-style-2">
           There are several brands offering clear aligners. Here are some
           popular ones:
@@ -69,16 +69,16 @@ const ClearAlignersBaner = () => {
           is best suited for your unique needs.
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">Cost of Clear Aligners</h1>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	py-16">Cost of Clear Aligners</h1>
         <p className="p-style-2">
           The cost of clear aligners varies depending on various factors such as
           the complexity of your case, the brand you choose, and your location.
           However, they are generally priced between £2800 to £4400
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">How to Get Started</h1>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	py-16">How to Get Started</h1>
         <p className="p-style-2">
           1. Consultation: Visit Parish Dental for a comprehensive evaluation.
         </p>
