@@ -4,7 +4,7 @@ const ClearAlignersBaner = () => {
   return (
     <section className="container mx-auto px-10 py-12">
       <div className="tab1 py-6">
-        <h1 className="blue text-3xl	py-4">What is General Dentistry?</h1>
+        <h1 className="blue text-3xl t-style-2	py-4">What is General Dentistry?</h1>
         <p>
           General Dentistry encompasses a wide array of treatments and
           procedures aimed at diagnosing, treating, and preventing dental
@@ -13,7 +13,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="blue text-3xl	py-4">Services Offered in General Dentistry</h1>
+        <h1 className="blue text-3xl  t-style-2	py-4">Services Offered in General Dentistry</h1>
         <h2 className="blue text-2xl	pt-2.5 ">Regular Check-ups</h2>
 
         <p>
@@ -55,7 +55,7 @@ const ClearAlignersBaner = () => {
       </div>
 
       <div className="tab1 py-6">
-        <h1 className="blue text-3xl	py-4">Why General Dentistry is Important?</h1>
+        <h1 className="blue text-3xl t-style-2	py-4">Why General Dentistry is Important?</h1>
 
         <p>
           1. Early Diagnosis: Regular dental visits help in early detection of
@@ -76,7 +76,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="blue text-3xl	py-4">Cost and Insurance</h1>
+        <h1 className="blue text-3xl t-style-2	py-4">Cost and Insurance</h1>
         <p>
           The cost of general dentistry services varies depending on the
           treatment and location. Many dental insurance plans cover the cost of
@@ -84,7 +84,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 py-6">
-        <h1 className="blue text-3xl	py-4">How to Choose a General Dentist</h1>
+        <h1 className="blue text-3xl t-style-2	py-4">How to Choose a General Dentist</h1>
         <p>
           1. Qualifications: Make sure the dentist is board-certified and has
           good reviews.{" "}

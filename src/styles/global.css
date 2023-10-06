@@ -344,8 +344,8 @@ details > summary::-webkit-details-marker {
 }
 .flexe{
   display: flex;
-  align-items: center;
-  gap: 20px;
+  align-items: center !important;
+  gap: 30px;
 }
 .nove{
   padding: 20px;
