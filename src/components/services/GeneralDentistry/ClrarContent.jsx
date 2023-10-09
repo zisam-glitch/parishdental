@@ -4,7 +4,7 @@ const ClearAlignersBaner = () => {
   return (
     <section className="container mx-auto px-10 py-12">
       <div className="tab1 py-16">
-        <h1 className="blue text-3xl t-style-2	py-4">
+        <h1 className="blue text-3xl t-style-2	py-6">
           What is General Dentistry?
         </h1>
         <p className="p-style">
@@ -15,7 +15,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 pb-16">
-        <h1 className="blue text-3xl  t-style-2	pb-16">
+        <h1 className="blue text-3xl  t-style-2	pb-6">
           Services Offered in General Dentistry
         </h1>
         <div className="flexe">
@@ -73,7 +73,7 @@ const ClearAlignersBaner = () => {
       </div>
 
       <div className="tab1 pt-16">
-        <h1 className="blue text-3xl t-style-2	pb-16">
+        <h1 className="blue text-3xl t-style-2	pb-6">
           Why General Dentistry is Important?
         </h1>
 
@@ -96,7 +96,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 pt-16">
-        <h1 className="blue text-3xl t-style-2	pb-16">Cost and Insurance</h1>
+        <h1 className="blue text-3xl t-style-2	pb-6">Cost and Insurance</h1>
         <p className="p-style-2">
           The cost of general dentistry services varies depending on the
           treatment and location. Many dental insurance plans cover the cost of
@@ -104,7 +104,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 pt-16">
-        <h1 className="blue text-3xl t-style-2	pb-16">
+        <h1 className="blue text-3xl t-style-2	pb-6">
           How to Choose a General Dentist
         </h1>
         <p  className="p-style-2">
