@@ -14,8 +14,8 @@ const ClearAlignersBaner = () => {
           problems and is crucial for individuals of all ages.
         </p>
       </div>
-      <div className="tab1 py-16">
-        <h1 className="blue text-3xl  t-style-2	py-4">
+      <div className="tab1 pb-16">
+        <h1 className="blue text-3xl  t-style-2	pb-16">
           Services Offered in General Dentistry
         </h1>
         <div className="flexe">
