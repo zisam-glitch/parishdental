@@ -3,7 +3,7 @@ import React from "react";
 const ClearAlignersBaner = () => {
   return (
     <section className="container mx-auto px-10 py-12">
-      <div className="tab1 py-6">
+      <div className="tab1 py-16">
         <h1 className="blue text-3xl t-style-2	py-4">
           What is General Dentistry?
         </h1>
@@ -14,7 +14,7 @@ const ClearAlignersBaner = () => {
           problems and is crucial for individuals of all ages.
         </p>
       </div>
-      <div className="tab1 py-6">
+      <div className="tab1 py-16">
         <h1 className="blue text-3xl  t-style-2	py-4">
           Services Offered in General Dentistry
         </h1>
@@ -72,54 +72,54 @@ const ClearAlignersBaner = () => {
         </div>
       </div>
 
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	pb-16">
           Why General Dentistry is Important?
         </h1>
 
-        <p>
+        <p className="p-style-2">
           1. Early Diagnosis: Regular dental visits help in early detection of
           oral health problems like cavities and gum disease.
         </p>
-        <p>
+        <p className="p-style-2">
           2. Prevention: General dentistry focuses on preventative care, which
           can save you from more extensive and expensive treatments down the
           line.
         </p>
-        <p>
+        <p className="p-style-2">
           3. Education: Dentists not only treat but also educate patients on the
           best practices for oral care.
         </p>
-        <p>
+        <p className="p-style-2">
           4. Family Care: General dentistry caters to the dental needs of the
           entire family, from children to seniors.
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">Cost and Insurance</h1>
-        <p>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	pb-16">Cost and Insurance</h1>
+        <p className="p-style-2">
           The cost of general dentistry services varies depending on the
           treatment and location. Many dental insurance plans cover the cost of
           preventative care treatments like regular check-ups and cleanings.
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl t-style-2	py-4">
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	pb-16">
           How to Choose a General Dentist
         </h1>
-        <p>
+        <p  className="p-style-2">
           1. Qualifications: Make sure the dentist is board-certified and has
           good reviews.{" "}
         </p>
-        <p>
+        <p  className="p-style-2">
           2. Location: A conveniently located clinic will make regular visits
           easier.{" "}
         </p>
-        <p>
+        <p  className="p-style-2">
           3. Services Offered: Ensure that the dental office offers the range of
           services you and your family may need.
         </p>
-        <p>
+        <p  className="p-style-2">
           4. Insurance: Check if the dental practice accepts your insurance.
         </p>
       </div>
