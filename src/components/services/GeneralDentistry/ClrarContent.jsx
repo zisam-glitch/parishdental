@@ -72,7 +72,7 @@ const ClearAlignersBaner = () => {
         </div>
       </div>
 
-      <div className="tab1 py-16">
+      <div className="tab1 pt-16">
         <h1 className="blue text-3xl t-style-2	pb-16">
           Why General Dentistry is Important?
         </h1>
@@ -95,7 +95,7 @@ const ClearAlignersBaner = () => {
           entire family, from children to seniors.
         </p>
       </div>
-      <div className="tab1 py-16">
+      <div className="tab1 pt-16">
         <h1 className="blue text-3xl t-style-2	pb-16">Cost and Insurance</h1>
         <p className="p-style-2">
           The cost of general dentistry services varies depending on the
@@ -103,7 +103,7 @@ const ClearAlignersBaner = () => {
           preventative care treatments like regular check-ups and cleanings.
         </p>
       </div>
-      <div className="tab1 py-16">
+      <div className="tab1 pt-16">
         <h1 className="blue text-3xl t-style-2	pb-16">
           How to Choose a General Dentist
         </h1>
