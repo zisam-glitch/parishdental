@@ -14,15 +14,15 @@ const ClearAlignersBaner = () => {
           smile appearance.
         </p>
       </div>
-      <div className="tab1 py-6">
-        <h1 className="blue text-3xl  t-style-2	py-4">
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl  t-style-2	pb-14">
           Popular Cosmetic Dentistry Procedures
         </h1>
         <div className="flexe">
           <div className="nove-3">
             <h2 className="blue text-2xl	pt-2.5 ">Teeth Whitening</h2>
 
-            <p>
+            <p >
               One of the most common and cost-effective cosmetic dentistry
               treatments, teeth whitening can brighten your smile in just one
               session.
@@ -70,30 +70,30 @@ const ClearAlignersBaner = () => {
           Benefits of Cosmetic Dentistry
         </h1>
 
-        <p>
+        <p  className="p-style-2">
           1. Enhanced Appearance: The most obvious benefit is a more attractive
           smile.
         </p>
-        <p>
+        <p  className="p-style-2">
           2. Boosted Confidence: A better smile often leads to increased
           self-esteem and confidence.
         </p>
-        <p>
+        <p  className="p-style-2">
           3. Improved Oral Health: Some procedures can help improve your oral
           health by making cleaning easier.
         </p>
-        <p>
+        <p  className="p-style-2">
           4. Long-Lasting Results: Many cosmetic dentistry procedures offer
           long-term or permanent solutions.
         </p>
-        <p>
+        <p  className="p-style-2">
           5. Wider Range of Options: There are treatments available for almost
           every aesthetic issue you might have with your teeth. l
         </p>
       </div>
       <div className="tab1 py-6">
         <h1 className="blue text-3xl  t-style-2	py-4">Costs and Financing</h1>
-        <p>
+        <p  className="p-style-2">
           The cost of cosmetic dentistry varies widely depending on the type of
           procedure, the expertise of the dentist, and geographic location.
           While many cosmetic procedures are not covered by dental insurance,
@@ -104,19 +104,19 @@ const ClearAlignersBaner = () => {
         <h1 className="blue text-3xl  t-style-2	py-4">
           How to Choose a Cosmetic Dentist
         </h1>
-        <p>
+        <p   className="p-style-2">
           1. Experience and Qualifications: Look for a dentist with specialized
           training and a portfolio of before-and-after cases.{" "}
         </p>
-        <p>
+        <p   className="p-style-2">
           2. Technology: Opt for a clinic that uses the latest technology for
           more precise and effective treatments.
         </p>
-        <p>
+        <p   className="p-style-2">
           3. Reviews and Testimonials: Customer reviews can provide valuable
           insights into patient satisfaction and quality of service.
         </p>
-        <p>
+        <p   className="p-style-2">
           4. Consultation: A thorough initial consultation is a good sign of a
           dentist’s professionalism and concern for your needs.
         </p>
