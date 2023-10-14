@@ -109,14 +109,17 @@ export default function App() {
                 <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
                 Exclusive Offer
                 </h3>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl text-primary font-semibold capitalize my-2">
+                <h2 className="text-3xl sm:text-3xl md:text-4xl text-primary font-semibold capitalize my-2">
                   <span className="inline-block bg-white my-1 px-3 py-2 rounded">
                   Accepting New NHS Patients Under 18. 
-                    
                   </span>
                   <br />
                   <span className="inline-block bg-white my-1 px-3 py-2 rounded">
-                  Adults Welcome at a Private Rate, Only £9.20 Above NHS Pricing.
+                  Adults Welcome at a Private Rate, 
+                  </span>
+                  <br />
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                  Only £9.20 Above NHS Pricing.
                   </span>
                 </h2>
                 <Link to="/services/aesthetics">
