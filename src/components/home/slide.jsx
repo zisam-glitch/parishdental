@@ -24,7 +24,7 @@ export default function App() {
     <>
       <Swiper
         autoplay={{
-          delay: 5000
+          delay: 4000
         }}
         cssMode={true}
         navigation={true}
