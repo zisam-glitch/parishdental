@@ -38,6 +38,13 @@ const Topbar = () => {
             0113 322 8354
           </a>
           <a
+            href="tel:01132638509"
+            className="px-4 flex items-center"
+          >
+            <FiPhone className="mr-2" />
+            0113 263 8509
+          </a>
+          <a
             href="mailto:hello@parishdental.co.uk"
             className="px-4 flex items-center"
           >
