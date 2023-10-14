@@ -5,7 +5,7 @@ import PageHeader from "../components/global/PageHeader";
 const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
-      <PageHeader pageTitle="Parish Dental Practice Policy" />
+      <PageHeader pageTitle="Vacancies" />
       <div className="container mx-auto my-40">
         <details>
           <summary class="accordion">Apprentice Nurse</summary>
