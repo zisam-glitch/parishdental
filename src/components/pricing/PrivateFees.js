@@ -43,6 +43,21 @@ const PrivateFees = () => {
             <PrivateFeeFiltered category="Dentures" />
             <PrivateFeeFiltered category="Prevention" />
             <PrivateFeeFiltered category="Aesthetics" />
+            <div>
+              <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                Aesthetics
+              </h3>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Teeth Whitening
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £300
+                  </p>
+                </div>
+              </div>
+            </div>
             <PrivateFeeFiltered category="Other Items" />
           </div>
         </div>

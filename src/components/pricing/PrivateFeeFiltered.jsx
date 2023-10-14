@@ -32,41 +32,37 @@ const PrivateFeeFiltered = ({ category }) => {
 
   return (
     <div id={id}>
-      <details>
-        <summary>
-          <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
-            {category}
-          </h3>
-        </summary>
+      <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+        {category}
+      </h3>
 
-        {privateFees
-          .filter((val) => val.category === category)
-          .map((fee) => {
-            const numRegx = /\d+/;
-            const priceWithPound = fee?.price?.replaceAll(
-              fee?.price.match(numRegx),
-              `£${fee?.price.match(numRegx)}`
-            );
+      {privateFees
+        .filter((val) => val.category === category)
+        .map((fee) => {
+          const numRegx = /\d+/;
+          const priceWithPound = fee?.price?.replaceAll(
+            fee?.price.match(numRegx),
+            `£${fee?.price.match(numRegx)}`
+          );
 
-            return (
-              <React.Fragment key={fee.privateFeeId}>
-                <div
-                  key={fee.privateFeeId}
-                  className="flex justify-between items-center"
-                >
-                  <div className="flex justify-between items-center w-full border-b">
-                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      {fee?.service}
-                    </h5>
-                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      {regexTest.test(fee?.price) ? fee?.price : priceWithPound}
-                    </p>
-                  </div>
+          return (
+            <React.Fragment key={fee.privateFeeId}>
+              <div
+                key={fee.privateFeeId}
+                className="flex justify-between items-center"
+              >
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    {fee?.service}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    {regexTest.test(fee?.price) ? fee?.price : priceWithPound}
+                  </p>
                 </div>
-              </React.Fragment>
-            );
-          })}
-      </details>
+              </div>
+            </React.Fragment>
+          );
+        })}
     </div>
   );
 };
