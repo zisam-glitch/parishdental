@@ -45,7 +45,7 @@ const PrivateFees = () => {
             <PrivateFeeFiltered category="Aesthetics" />
             <div>
               <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
-              Aesthetics
+                Aesthetics
               </h3>
               <details>
                 <summary>
@@ -56,7 +56,94 @@ const PrivateFees = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      Teeth Whitening
+                      0.5ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £100
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      0.7ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £150
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      1ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £250
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      2ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £350
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      3ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £400
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      4ML
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £450
+                    </p>
+                  </div>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                    Botox{" "}
+                  </h3>
+                </summary>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      1 AREA
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £180
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      2 AREAS
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £240
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      3 AREAS
                     </h5>
                     <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
                       £300
@@ -66,7 +153,45 @@ const PrivateFees = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      Teeth Whitening
+                      4 AREAS
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £400
+                    </p>
+                  </div>
+                </div>
+              </details>
+              </details>
+              <details>
+                <summary>
+                  <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                    Botox{" "}
+                  </h3>
+                </summary>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      1 AREA
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £180
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      2 AREAS
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £240
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      3 AREAS
                     </h5>
                     <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
                       £300
@@ -76,30 +201,10 @@ const PrivateFees = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      Teeth Whitening
+                      4 AREAS
                     </h5>
                     <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £300
-                    </p>
-                  </div>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex justify-between items-center w-full border-b">
-                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      Teeth Whitening
-                    </h5>
-                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £300
-                    </p>
-                  </div>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex justify-between items-center w-full border-b">
-                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      Teeth Whitening
-                    </h5>
-                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £300
+                      £400
                     </p>
                   </div>
                 </div>
