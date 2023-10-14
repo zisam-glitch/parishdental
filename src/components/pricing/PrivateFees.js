@@ -62,6 +62,8 @@ const PrivateFees = () => {
                       £300
                     </p>
                   </div>
+                </div>
+                <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
                       Teeth Whitening
@@ -70,6 +72,8 @@ const PrivateFees = () => {
                       £300
                     </p>
                   </div>
+                </div>
+                <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
                       Teeth Whitening
@@ -78,7 +82,26 @@ const PrivateFees = () => {
                       £300
                     </p>
                   </div>
-                  
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      Teeth Whitening
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £300
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full border-b">
+                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                      Teeth Whitening
+                    </h5>
+                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                      £300
+                    </p>
+                  </div>
                 </div>
               </details>
             </div>
