@@ -185,6 +185,8 @@ const PrivateFees = () => {
                     </p>
                   </div>
                 </div>
+              </details>
+              
             </div>
 
             <PrivateFeeFiltered category="Other Items" />
