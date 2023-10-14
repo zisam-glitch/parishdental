@@ -164,51 +164,27 @@ const PrivateFees = () => {
               <details>
                 <summary>
                   <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
-                    Botox{" "}
+                  Others
                   </h3>
                 </summary>
                 <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      1 AREA
-                    </h5>
+                    PROFHILO FIRST DOSE</h5>
                     <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £180
+                    £249
                     </p>
                   </div>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex justify-between items-center w-full border-b">
                     <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      2 AREAS
-                    </h5>
+                    SOSUM BOOSTER</h5>
                     <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £240
+                      £160
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex justify-between items-center w-full border-b">
-                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      3 AREAS
-                    </h5>
-                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £300
-                    </p>
-                  </div>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex justify-between items-center w-full border-b">
-                    <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                      4 AREAS
-                    </h5>
-                    <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                      £400
-                    </p>
-                  </div>
-                </div>
-              </details>
-              
             </div>
 
             <PrivateFeeFiltered category="Other Items" />
