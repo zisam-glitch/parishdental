@@ -161,7 +161,6 @@ const PrivateFees = () => {
                   </div>
                 </div>
               </details>
-              </details>
               <details>
                 <summary>
                   <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
@@ -209,6 +208,7 @@ const PrivateFees = () => {
                   </div>
                 </div>
               </details>
+              
             </div>
 
             <PrivateFeeFiltered category="Other Items" />
